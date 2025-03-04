@@ -1,6 +1,6 @@
 var tutorial = 0;
 var confidence = 15;
-var gunnertroops = [1];
+var gunnertroops = [5];
 var rifletroops = [1,2,3,4];
 var shocktroops = [];
 var armored = [];
