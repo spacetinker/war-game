@@ -4,6 +4,15 @@ var gunnertroops = [5];
 var rifletroops = [1,2,3,4];
 var shocktroops = [];
 var armored = [];
+function troopsmenu() {
+  document.GetElementById("tfbutton").hidden = false;
+  document.GetElementById("trooptypeinput").hidden = false;
+  document.GetElementById("troopidinput").hidden = false;
+  tutorial(3)
+}
+function findtroops() {
+  
+}
 function continue_intro(tutorial) {
   if (tutorialfront == 1 && tutorialaerial == 1 && tutorialtroops == 1 && tutorialcom == 1){
     tutorial = 5;
