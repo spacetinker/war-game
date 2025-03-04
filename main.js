@@ -1,6 +1,7 @@
 var tutorial = 0;
-var gunnertroops = [1,2];
-var rifletroops = [1,2,3];
+var confidence = 15;
+var gunnertroops = [1];
+var rifletroops = [1,2,3,4];
 var shocktroops = [];
 var armored = [];
 function continue_intro(tutorial) {
