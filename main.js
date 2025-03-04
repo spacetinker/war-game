@@ -1,5 +1,8 @@
 var tutorial = 0;
 function continue_intro(tutorial) {
+  if (tutorialfront == 1 && tutorialaerial == 1 && tutorialtroops == 1 && tutorialcom == 1){
+    tutorial = 5;
+  }
   if (tutorial == 1){
     document.GetElementById("tutorial11").hidden = false;
     document.GetElementById("tutorial12").hidden = false;
