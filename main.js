@@ -12,7 +12,10 @@ function troopsmenu() {
 }
 function findtroops() {
   let var1troop = parseInt(document.GetElementById("trooptypeinput").value);
-  lst var2troop = parseInt(document.GetElementById("troopidinput").value);
+  let var2troop = parseInt(document.GetElementById("troopidinput").value);
+  if (var1troop == rifle){
+    
+  }
 }
 function continue_intro(tutorial) {
   if (tutorialfront == 1 && tutorialaerial == 1 && tutorialtroops == 1 && tutorialcom == 1){
