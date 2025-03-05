@@ -23,7 +23,7 @@ function continue_intro(tutorial) {
   if (tutorialfront == 1 && tutorialaerial == 1 && tutorialtroops == 1 && tutorialcom == 1){
     tutorial = 5;
   }
-  if (tutorial == 1){
+  if (tutorial == 1 && tutorialfront != 1){
     document.GetElementById("tutorial11").hidden = false;
     document.GetElementById("tutorial12").hidden = false;
     document.GetElementById("tutorial13").hidden = false;
@@ -42,7 +42,7 @@ function continue_intro(tutorial) {
     document.GetElementById("tutorial44").hidden = true;
     tutorialfront = 1;
   }
-  if (tutorial == 2){
+  if (tutorial == 2 && tutorialaerial != 1){
     document.GetElementById("tutorial21").hidden = false;
     document.GetElementById("tutorial22").hidden = false;
     document.GetElementById("tutorial23").hidden = false;
@@ -61,7 +61,7 @@ function continue_intro(tutorial) {
     document.GetElementById("tutorial44").hidden = true;
     tutorialaerial = 1;
   }
-  if (tutorial == 3){
+  if (tutorial == 3 && tutorialtroops != 1){
     document.GetElementById("tutorial31").hidden = false;
     document.GetElementById("tutorial32").hidden = false;
     document.GetElementById("tutorial33").hidden = false;
@@ -80,7 +80,7 @@ function continue_intro(tutorial) {
     document.GetElementById("tutorial44").hidden = true;
     tutorialtroops = 1;
   }
-  if (tutorial == 4){
+  if (tutorial == 4 && tutorialcom != 1){
     document.GetElementById("tutorial41").hidden = false;
     document.GetElementById("tutorial42").hidden = false;
     document.GetElementById("tutorial43").hidden = false;
