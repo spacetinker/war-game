@@ -10,13 +10,23 @@ function troopsmenu() {
   document.GetElementById("tfbutton").hidden = false;
   document.GetElementById("trooptypeinput").hidden = false;
   document.GetElementById("troopidinput").hidden = false;
+  document.GetElementById("troopinstr4").hidden = false;
+  document.GetElementById("troopinstr3").hidden = false;
+  document.GetElementById("troopinstr2").hidden = false;
+  document.GetElementById("troopinstr1").hidden = false;
   tutorial(3)
 }
 function findtroops() {
   let var1troop = parseInt(document.GetElementById("trooptypeinput").value);
   let var2troop = parseInt(document.GetElementById("troopidinput").value);
   if (var1troop == rifle){
-    
+    if(var2troop > rifletroops.length){
+      var2troop = rifletroops.indexOf(var2troop)
+      trooplocation = unitlocations.indexOf(var2troop)
+      document.GetElementById("troopselectorerror").hidden = false;
+    }else{
+      document.GetElementById("troopselectorerror").hidden = false;
+    }
   }
 }
 function continue_intro(tutorial) {
