@@ -4,6 +4,8 @@ var gunnertroops = [5];
 var rifletroops = [1,2,3,4];
 var shocktroops = [];
 var armored = [];
+var unitlocations = [1,2,3,4,5]
+var unitidsetup = 5
 function troopsmenu() {
   document.GetElementById("tfbutton").hidden = false;
   document.GetElementById("trooptypeinput").hidden = false;
