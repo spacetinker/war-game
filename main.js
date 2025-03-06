@@ -17,7 +17,7 @@ function troopsmenu() {
   document.GetElementById("troopinstr3").hidden = false;
   document.GetElementById("troopinstr2").hidden = false;
   document.GetElementById("troopinstr1").hidden = false;
-  tutorial(3)
+  troopstutorial()
 }
 function findtroops() {
   let var1troop = parseInt(document.GetElementById("trooptypeinput").value);
@@ -33,7 +33,7 @@ function findtroops() {
     }
   }
 }
-function continue_intro(tutorial) {
+function continue_intro() {
   if (tutorialfront == 1 && tutorialaerial == 1 && tutorialtroops == 1 && tutorialcom == 1){
     tutorial = 5;
   }
@@ -123,4 +123,24 @@ function continue_intro(tutorial) {
     document.GetElementById("combutton").hidden = false;
     document.GetElementById("troopsbutton").hidden = false;
   }
+}
+function troopstutorial() {
+  tutorial = 3;
+  continue_intro()
+}
+function introtutorial() {
+  tutorial = 0;
+  continue_intro()
+}
+function aerialtutorial() {
+  tutorial = 2;
+  continue_intro()
+}
+function fronttutorial() {
+  tutorial = 1;
+  continue_intro()
+}
+function comtutorial() {
+  tutorial = 4;
+  continue_intro()
 }
