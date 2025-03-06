@@ -125,8 +125,23 @@ function continue_intro() {
   }
 }
 function troopstutorial() {
-  tutorial = 3;
-  continue_intro()
+  document.GetElementById("tutorial31").hidden = false;
+  document.GetElementById("tutorial32").hidden = false;
+  document.GetElementById("tutorial33").hidden = false;
+  document.GetElementById("tutorial34").hidden = false;
+  document.GetElementById("tutorial21").hidden = true;
+  document.GetElementById("tutorial22").hidden = true;
+  document.GetElementById("tutorial23").hidden = true;
+  document.GetElementById("tutorial24").hidden = true;
+  document.GetElementById("tutorial11").hidden = true;
+  document.GetElementById("tutorial12").hidden = true;
+  document.GetElementById("tutorial13").hidden = true;
+  document.GetElementById("tutorial14").hidden = true;
+  document.GetElementById("tutorial41").hidden = true;
+  document.GetElementById("tutorial42").hidden = true;
+  document.GetElementById("tutorial43").hidden = true;
+  document.GetElementById("tutorial44").hidden = true;
+  tutorialtroops = 1;
 }
 function introtutorial() {
   tutorial = 0;
