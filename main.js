@@ -113,18 +113,9 @@ function continue_intro() {
     document.GetElementById("tutorial24").hidden = true;
     tutorialcom = 1;
   }
-  if (tutorial == 0){
-    document.GetElementById("intro1").hidden = true;
-    document.GetElementById("intro2").hidden = true;
-    document.GetElementById("intro3").hidden = true;
-    document.GetElementById("intro4").hidden = true;
-    document.GetElementById("frontbutton").hidden = false;
-    document.GetElementById("aerialbutton").hidden = false;
-    document.GetElementById("combutton").hidden = false;
-    document.GetElementById("troopsbutton").hidden = false;
-  }
 }
 function troopstutorial() {
+  if (tutorialtroops == 0){
   document.GetElementById("tutorial31").hidden = false;
   document.GetElementById("tutorial32").hidden = false;
   document.GetElementById("tutorial33").hidden = false;
@@ -142,10 +133,17 @@ function troopstutorial() {
   document.GetElementById("tutorial43").hidden = true;
   document.GetElementById("tutorial44").hidden = true;
   tutorialtroops = 1;
+  }
 }
 function introtutorial() {
-  tutorial = 0;
-  continue_intro()
+  document.GetElementById("intro1").hidden = true;
+  document.GetElementById("intro2").hidden = true;
+  document.GetElementById("intro3").hidden = true;
+  document.GetElementById("intro4").hidden = true;
+  document.GetElementById("frontbutton").hidden = false;
+  document.GetElementById("aerialbutton").hidden = false;
+  document.GetElementById("combutton").hidden = false;
+  document.GetElementById("troopsbutton").hidden = false;
 }
 function aerialtutorial() {
   tutorial = 2;
