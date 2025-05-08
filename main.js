@@ -117,10 +117,7 @@ function troopstutorial() {
   }
 }
 function introtutorial() {
-  document.GetElementById("intro1").hidden = true;
-  document.GetElementById("intro2").hidden = true;
-  document.GetElementById("intro3").hidden = true;
-  document.GetElementById("intro4").hidden = true;
+  document.GetElementById("intro").hidden = true;
   document.GetElementById("frontbutton").hidden = false;
   document.GetElementById("aerialbutton").hidden = false;
   document.GetElementById("combutton").hidden = false;
