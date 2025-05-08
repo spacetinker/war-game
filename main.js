@@ -9,7 +9,8 @@ var shocktroops = [];
 var armored = [];
 var unitlocations = [1,2,3,4,5]
 var unitidsetup = 5
-var unitnames = [princes_rifles,kings_rifles,first_rifles,seconed_rifles,princes_armored]
+var unitnumbers = [1st_,2nd_,3rd_,4th_,5th_,6th_,7th_,8th_,9th_,10th_]
+var unitnames = [1st_princes_rifles,2nd_kings_rifles,3rd_first_rifles,4th_seconed_rifles,1st_princes_armored]
 var unitnamer1 = [princes_,kings_,first_,seconed_,third_,highlanders_,usonias_,potters_,rooks_,knights_,peoples_,borshas_]
 var unitnamer2 = [rifles,armored,gunners,shocktroops]
 
