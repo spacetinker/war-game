@@ -10,7 +10,7 @@ var armored = [];
 var unitlocations = [1,2,3,4,5]
 var unitidsetup = 5
 var unitnames = [princes_rifles,kings_rifles,first_rifles,seconed_rifles,princes_armored]
-var unitnamer1 = [princes_,kings_,first_,seconed_,third_,highlanders_,usonias_,potters_,rooks_,knights_]
+var unitnamer1 = [princes_,kings_,first_,seconed_,third_,highlanders_,usonias_,potters_,rooks_,knights_,peoples_,borshas_]
 var unitnamer2 = [rifles,armored,gunners,shocktroops]
 
 function troopsmenu() {
