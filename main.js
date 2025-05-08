@@ -97,22 +97,10 @@ function findtroops() {
 }
 function troopstutorial() {
   if (tutorialtroops == 0){
-  document.GetElementById("tutorial31").hidden = false;
-  document.GetElementById("tutorial32").hidden = false;
-  document.GetElementById("tutorial33").hidden = false;
-  document.GetElementById("tutorial34").hidden = false;
-  document.GetElementById("tutorial21").hidden = true;
-  document.GetElementById("tutorial22").hidden = true;
-  document.GetElementById("tutorial23").hidden = true;
-  document.GetElementById("tutorial24").hidden = true;
-  document.GetElementById("tutorial11").hidden = true;
-  document.GetElementById("tutorial12").hidden = true;
-  document.GetElementById("tutorial13").hidden = true;
-  document.GetElementById("tutorial14").hidden = true;
-  document.GetElementById("tutorial41").hidden = true;
-  document.GetElementById("tutorial42").hidden = true;
-  document.GetElementById("tutorial43").hidden = true;
-  document.GetElementById("tutorial44").hidden = true;
+  document.GetElementById("tutorial3").hidden = false;
+  document.GetElementById("tutorial2").hidden = true;
+  document.GetElementById("tutorial1").hidden = true;
+  document.GetElementById("tutorial4").hidden = true;
   tutorialtroops = 1;
   }
 }
@@ -125,43 +113,19 @@ function introtutorial() {
 }
 function aerialtutorial() {
   if (tutorialaerial == 0){
-    document.GetElementById("tutorial21").hidden = false;
-    document.GetElementById("tutorial22").hidden = false;
-    document.GetElementById("tutorial23").hidden = false;
-    document.GetElementById("tutorial24").hidden = false;
-    document.GetElementById("tutorial11").hidden = true;
-    document.GetElementById("tutorial12").hidden = true;
-    document.GetElementById("tutorial13").hidden = true;
-    document.GetElementById("tutorial14").hidden = true;
-    document.GetElementById("tutorial31").hidden = true;
-    document.GetElementById("tutorial32").hidden = true;
-    document.GetElementById("tutorial33").hidden = true;
-    document.GetElementById("tutorial34").hidden = true;
-    document.GetElementById("tutorial41").hidden = true;
-    document.GetElementById("tutorial42").hidden = true;
-    document.GetElementById("tutorial43").hidden = true;
-    document.GetElementById("tutorial44").hidden = true;
+    document.GetElementById("tutorial2").hidden = false;
+    document.GetElementById("tutorial1").hidden = true;
+    document.GetElementById("tutorial3").hidden = true;
+    document.GetElementById("tutorial4").hidden = true;
     tutorialaerial = 1;
   }
 }
 function fronttutorial() {
   if (tutorialfront == 0){
-  document.GetElementById("tutorial11").hidden = false;
-  document.GetElementById("tutorial12").hidden = false;
-  document.GetElementById("tutorial13").hidden = false;
-  document.GetElementById("tutorial14").hidden = false;
-  document.GetElementById("tutorial21").hidden = true;
-  document.GetElementById("tutorial22").hidden = true;
-  document.GetElementById("tutorial23").hidden = true;
-  document.GetElementById("tutorial24").hidden = true;
-  document.GetElementById("tutorial31").hidden = true;
-  document.GetElementById("tutorial32").hidden = true;
-  document.GetElementById("tutorial33").hidden = true;
-  document.GetElementById("tutorial34").hidden = true;
-  document.GetElementById("tutorial41").hidden = true;
-  document.GetElementById("tutorial42").hidden = true;
-  document.GetElementById("tutorial43").hidden = true;
-  document.GetElementById("tutorial44").hidden = true;
+  document.GetElementById("tutorial1").hidden = false;
+  document.GetElementById("tutorial2").hidden = true;
+  document.GetElementById("tutorial3").hidden = true;
+  document.GetElementById("tutorial4").hidden = true;
   tutorialfront = 1;
   }
 }
