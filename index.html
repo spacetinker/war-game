@@ -9,10 +9,10 @@
     <div id="tutorial1" hidden>
     <p>now this here is the front this is where the combat is,</p>
     <p>this is also where you will deploy your troops you will</p>
-    <p> also order your trrops from here, though remeber with</p>
+    <p> also order your troops from here, though remember with</p>
     <p> so few troops every casulty and lost rifle is important</p>
     </div><div id="tutorial2" hidden>
-    <p>this is the aerial comunications area the idea of aerial</p>
+    <p>this is the aerial comunications area, the idea of aerial</p>
     <p> warfare has been on everyone's minds and borsha is one</p>
     <p> of the first to adopt planes in warfare, deploy planes </p>
     <p> here and call air support as well, they can do a lot.</p>
@@ -21,9 +21,10 @@
     <p>troops and ready them for the front simply put the </p>
     <p>troop id in the text box and press the button it should</p>
     <p> pop up also make sure your troops rest so they are ready</p>
+    <p>for combat</p>
     </div><div id="tutorial4" hidden>
     <p>this here is the command area here you are going to request</p>
-    <p> reenforcements and get orders though don't request too many</p>
+    <p> reinforcements and get orders though don't request too many</p>
     <p> troops or take too long on the orders or command will lose faith</p>
     <p> in you so keep care, if they lose faith in you they will replace you</p>
     </div>
@@ -36,13 +37,20 @@
     <button id = "combutton" onclick = "commenu()" hidden>communications</button>
     <input type = "text" id = "trooptypeinput" hidden placeholder="troop type goes here">
     <input type = "number" id = "troopidinput" hidden placeholder="troop id goes here">
-    <button id = "tfbutton" onclick = "findtroops()" hidden>find troops</button>
+    <button id = "troopfindbutton" onclick = "findtroops()" hidden>find troops</button>
     <p id = "trooptxt1" hidden>put the troop id on the top input, it should be the battalion number</p>
     <p id = "trooptxt2" hidden>remember the id is for the battalion within a type of troops</p>
-    <p id = "trooptxt3" hidden>the types are rifle troops, armored troops, shock troops and lmg troops</p> 
+    <p id = "trooptxt3" hidden>the types are rifle troops, armored troops, shock troops and gunner troops</p> 
     <p id = "trooptxt4" hidden>just put the equipment for the type</p>
     <button id="nextturn" onclick="nextturn" hidden>next turn</button>
     <p id = troopinfo1 hidden></p>
+    <div id="map" style="display none;">
+      <div>A1</div><div>B1</div><div>C1</div><div>D1</div><div>E1</div>
+      <div>A2</div><div>B2</div><div>C2</div><div>D2</div><div>E2</div>
+      <div>A3</div><div>B3</div><div>C3</div><div>D3</div><div>E3</div>
+      <div>A4</div><div>B4</div><div>C4</div><div>D4</div><div>E4</div>
+      <div>A5</div><div>B5</div><div>C5</div><div>D5</div><div>E5</div>
+    </div>
   </body>
 <script src="main.js">
 </script>
